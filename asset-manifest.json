@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/MyWebsite/static/css/main.10d2d437.css",
-    "main.js": "/MyWebsite/static/js/main.1571fb2f.js",
-    "static/js/787.21d17fcb.chunk.js": "/MyWebsite/static/js/787.21d17fcb.chunk.js",
-    "static/media/pexels-jessica-lewis-creative-1010519.jpg": "/MyWebsite/static/media/pexels-jessica-lewis-creative-1010519.0ea6545fb6643203fac0.jpg",
-    "static/media/video-game-controller-top.jpg": "/MyWebsite/static/media/video-game-controller-top.c121b546857bcc25ce33.jpg",
-    "static/media/purple_side_bg_plis.jpg": "/MyWebsite/static/media/purple_side_bg_plis.ea15454afb2751665b50.jpg",
-    "index.html": "/MyWebsite/index.html",
-    "main.10d2d437.css.map": "/MyWebsite/static/css/main.10d2d437.css.map",
-    "main.1571fb2f.js.map": "/MyWebsite/static/js/main.1571fb2f.js.map",
-    "787.21d17fcb.chunk.js.map": "/MyWebsite/static/js/787.21d17fcb.chunk.js.map"
+    "main.css": "/mywebsite/static/css/main.4c76149a.css",
+    "main.js": "/mywebsite/static/js/main.97c240ef.js",
+    "static/js/787.ec704a7a.chunk.js": "/mywebsite/static/js/787.ec704a7a.chunk.js",
+    "static/media/pexels-jessica-lewis-creative-1010519.jpg": "/mywebsite/static/media/pexels-jessica-lewis-creative-1010519.0ea6545fb6643203fac0.jpg",
+    "static/media/video-game-controller-top.jpg": "/mywebsite/static/media/video-game-controller-top.c121b546857bcc25ce33.jpg",
+    "static/media/purple_side_bg_plis.jpg": "/mywebsite/static/media/purple_side_bg_plis.ea15454afb2751665b50.jpg",
+    "index.html": "/mywebsite/index.html",
+    "main.4c76149a.css.map": "/mywebsite/static/css/main.4c76149a.css.map",
+    "main.97c240ef.js.map": "/mywebsite/static/js/main.97c240ef.js.map",
+    "787.ec704a7a.chunk.js.map": "/mywebsite/static/js/787.ec704a7a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.10d2d437.css",
-    "static/js/main.1571fb2f.js"
+    "static/css/main.4c76149a.css",
+    "static/js/main.97c240ef.js"
   ]
 }
