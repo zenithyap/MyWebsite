@@ -1,0 +1,16 @@
+.entry-list {
+  &__item {
+    
+    &--date {
+      font-size: 14px;
+    }
+    
+    &--delete {
+      color: red;
+      font-size: 14px;
+      padding-left: 20px;
+      font-family: sans-serif;
+      cursor: pointer;
+    }
+  }
+}

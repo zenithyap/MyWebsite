@@ -1,0 +1,36 @@
+.title {
+  font-size: 80px;
+  text-align: center;
+  margin-top: 6%;
+  color: rgb(194, 194, 194);
+  font-family: "Lucida Handwriting", "Brush Script MT", cursive;
+}
+
+.p1 {
+  text-align: center;
+  color: rgb(194, 194, 194);
+  font-family: serif;
+}
+
+h1 {
+  color: rgb(194, 194, 194);
+  text-align: center;
+  font-family: "Lucida Handwriting", "Brush Script MT", cursive;
+}
+
+.v_line {
+  border-left: 5px solid rgb(57, 2, 135);
+  height: 100%;
+}
+
+.h_line {
+  border-bottom: 2px solid rgb(194, 194, 194);
+  width: 23%;
+  margin: auto;
+}
+
+.SportsEsportsIcon:hover {
+  color: black;
+}
+
+

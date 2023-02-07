@@ -1,0 +1,51 @@
+body, html {
+    height: 100%;
+}
+
+.material-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg {
+    background-image: url('https://images.hdqwalls.com/download/8-bit-sunrise-mountains-artwork-4k-fg-2560x1440.jpg');
+    min-height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+@supports (-webkit-touch-callout: none) {
+    .bg {
+        background: url('https://images.hdqwalls.com/download/8-bit-sunrise-mountains-artwork-4k-fg-2560x1440.jpg') center top no-repeat scroll;
+        background-size: auto 100vh;
+    }    
+}
+
+.bg2 {
+    background-image: url(images/purple_side_bg_plis.jpg);
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.guitar {
+    background-position: center;
+    background-size: cover;
+    min-height: 50vh;
+    background-image: url('images/pexels-jessica-lewis-creative-1010519.jpg');
+}
+
+.gaming {
+    background-image: url('images/video-game-controller-top.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 50vh;
+}
+
+.myCard {
+    background-color: aliceblue;
+    text-align: center;
+}
