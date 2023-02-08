@@ -1,4 +1,4 @@
-import './text.css'
+import '../styling/text.css'
 import Card from '@mui/material/Card'
 import Container from '@mui/material/Container'
 

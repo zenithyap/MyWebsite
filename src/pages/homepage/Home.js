@@ -1,6 +1,6 @@
-import './bg.css';
-import './text.css'
-import NavigationBar from './NavigationBar';
+import '../styling/bg.css'
+import '../styling/text.css'
+import NavigationBar from '../NavigationBar';
 
 export default function home() {
   return (

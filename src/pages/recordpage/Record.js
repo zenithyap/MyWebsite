@@ -1,5 +1,5 @@
-import NavigationBar from "./NavigationBar";
-import './text.css'
+import NavigationBar from "../NavigationBar";
+import '../styling/text.css'
 import { useState, useEffect } from "react"
 import moment from 'moment'
 import Axios from 'axios'

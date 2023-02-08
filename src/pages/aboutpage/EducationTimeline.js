@@ -1,5 +1,5 @@
 import { Container, Card} from '@mui/material';
-import './text.css'
+import '../styling/text.css'
 
 export default function EducationTimeline() {
 	const educationArr = [

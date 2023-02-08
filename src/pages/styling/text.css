@@ -2,18 +2,24 @@
   font-size: 80px;
   text-align: center;
   margin-top: 6%;
-  color: rgb(194, 194, 194);
+  color: white;
   font-family: "Lucida Handwriting", "Brush Script MT", cursive;
 }
 
 .p1 {
   text-align: center;
-  color: rgb(194, 194, 194);
+  color: white;
   font-family: serif;
 }
 
+h3 {
+  color: white;
+  text-align: center;
+  font-family: "Lucida Handwriting", "Brush Script MT", cursive;
+}
+
 h1 {
-  color: rgb(194, 194, 194);
+  color: white;
   text-align: center;
   font-family: "Lucida Handwriting", "Brush Script MT", cursive;
 }

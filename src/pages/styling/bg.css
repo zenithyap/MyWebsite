@@ -1,0 +1,20 @@
+body, html {
+    height: 100%;
+}
+
+.material-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg {
+    background: rgb(197,173,197);
+    background: linear-gradient(90deg, rgba(197,173,197,1) 0%, rgba(178,181,224,1) 100%);
+    min-height: 100vh;
+}
+
+.myCard {
+    background-color: aliceblue;
+    text-align: center;
+}
