@@ -1,27 +1,36 @@
 .title {
   font-size: 80px;
   text-align: center;
-  margin-top: 6%;
-  color: white;
-  font-family: "Lucida Handwriting", "Brush Script MT", cursive;
+  color: rgb(76, 76, 76);
+  font-family: "Helvetica", Sans-Serif;
 }
 
 .p1 {
   text-align: center;
-  color: white;
+  color: rgb(76, 76, 76);
+  font-family: serif;
+}
+
+.p1left {
+  color: rgb(76, 76, 76);
   font-family: serif;
 }
 
 h3 {
-  color: white;
+  color: rgb(76, 76, 76);
   text-align: center;
-  font-family: "Lucida Handwriting", "Brush Script MT", cursive;
+  font-family: "Helvetica", Sans-Serif;
 }
 
 h1 {
-  color: white;
+  color: rgb(76, 76, 76);
   text-align: center;
-  font-family: "Lucida Handwriting", "Brush Script MT", cursive;
+  font-family: "Helvetica", Sans-Serif;
+}
+
+h5 {
+  color: rgb(76, 76, 76);
+  font-family: serif;
 }
 
 .v_line {
@@ -35,8 +44,5 @@ h1 {
   margin: auto;
 }
 
-.SportsEsportsIcon:hover {
-  color: black;
-}
 
 

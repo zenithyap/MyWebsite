@@ -22,10 +22,10 @@ export default function Skills() {
 			{
 				skillsArr && skillsArr.map((item, id) => {
 					return (
-						<Card variant='outlined' sx={{m:2, padding:2}}>
+						<Card variant='outlined' sx={{m:2, padding:2, boxShadow:'1px 2px 9px'}}>
               <div>
                 <h5>{item.title}</h5>
-                <p>{item.description}</p>
+                <div className='p1left'>{item.description}</div>
                 </div>
               </Card>
 						)
