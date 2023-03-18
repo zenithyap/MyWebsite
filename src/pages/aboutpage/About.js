@@ -22,12 +22,12 @@ export default function About() {
             I am a Year 2 Computer Science Major currently studying at National University of Singapore. I am a self-motivated, responsible and hard working individual, open to learning new frameworks and languages in order to further develop my personal skills. I aspire to be a Software Developer / Frontend web developer. With that said, I hope to land an internship soon so as to gain the necessary industry related skills and experience in order to further my career in the software developer field.
           </div>
         </FadeIn>
-        <Container sx={{ marginTop: '5%' }}>
+        <Container sx={{ marginTop: '20%' }}>
           <h3>Education</h3>
           <div className='h_line' />
           <Timeline />
         </Container>
-        <Container sx={{ marginTop: '5%' }}>
+        <Container sx={{ marginTop: '20%' }}>
           <h3>Skills</h3>
           <div className='h_line' />
           <Skills />

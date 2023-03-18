@@ -7,7 +7,10 @@ import { HashLink } from 'react-router-hash-link';
 
 export default function NavigationBar() {
   return (
-    <Navbar position='fixed' className='navbar-dark'>
+    <Navbar position='fixed' className='navbar-dark' >
+      <button className='navbar-toggler' type='button' data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
       <Container>
         <Navbar.Brand href="/">
           <img style={{height:'50px'}} src={require("../images/logo.png")} alt=''/>

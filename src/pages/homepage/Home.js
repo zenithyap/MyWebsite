@@ -6,17 +6,25 @@ import { Container } from '@mui/material';
 import FadeIn from '../animations/FadeIn';
 import FadeInSecond from '../animations/FadeInSecond';
 import FadeInThird from '../animations/FadeInThird';
+import FadeInOpacity from '../animations/FadeInOpacity'
 import VerticalProgress from '../animations/TopDownVerticalLine'
 
 export default function Home() {
   return (
     <div className='bg'>
       <NavigationBar />
-      <img style={{height:'350px', 
-                  position:'absolute',
-                  top:'23%',
-                  left:'38%',
-                  borderRadius:100 }} src={require("../../images/my_image.jpg")} alt=''/>
+        <FadeInOpacity>
+        <picture>
+          <source srcSet={require("../../images/my_image.jpg" )}
+                  media="(min-width: 1240px)"/>
+          <img style={{ height:'45%', 
+                    position:'absolute',
+                    top:'33%',
+                    left:'38%',
+                    borderRadius:30 }}
+                    src={require("../../images/my_image_mobile.jpg")} alt="" />
+        </picture>
+      </FadeInOpacity>
       <Container className='borderLeft' style={{position:'absolute', 
                         top:'45%', 
                         left:"50%", 
