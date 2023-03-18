@@ -114,7 +114,7 @@ export default function Record() {
     <div className="bg">
       <NavigationBar />
       <div className="container">
-        <h1 className='title'>
+        <h1 className='myTitleCenter'>
           Record
         </h1>
         <Entry addEntry={handleStoreEntry} />

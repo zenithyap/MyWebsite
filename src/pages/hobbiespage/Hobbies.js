@@ -8,7 +8,7 @@ export default function Hobbies() {
     <div className='bg'>
       <NavigationBar/>
       <Container style={{position:'absolute', top:'40%', left:"50%", transform:'translate(-50%, -50%)'}}>
-        <div className='title'>My Hobbies</div>
+        <div className='myTitleCenter'>My Hobbies</div>
         <div className='h_line'/>
       </Container>
     </div>

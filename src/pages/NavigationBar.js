@@ -7,12 +7,12 @@ import { HashLink } from 'react-router-hash-link';
 
 export default function NavigationBar() {
   return (
-    <Navbar position='fixed'>
+    <Navbar position='fixed' className='navbar-dark'>
       <Container>
         <Navbar.Brand href="/">
-          <img style={{height:'50px'}} src={require("../images/zen.png")} alt=''/>
+          <img style={{height:'50px'}} src={require("../images/logo.png")} alt=''/>
         </Navbar.Brand>
-        <Nav className="mr-auto h5" >
+        <Nav className="mr-auto" >
           <Nav.Link as={Link} to="/">Home</Nav.Link>
           <Nav.Link as={HashLink} to="/#about_me">About Me</Nav.Link>
           <Nav.Link as={Link} to="/Hobbies">Hobbies</Nav.Link>

@@ -1,5 +1,7 @@
 body, html {
     height: 100%;
+    background-color: rgb(48,48,48);
+    color: rgb(224,224,224)
 }
 
 .material-icons {
@@ -9,12 +11,25 @@ body, html {
 }
 
 .bg {
-    background: rgb(197,173,197);
-    background: linear-gradient(90deg, rgba(197,173,197,1) 0%, rgba(178,181,224,1) 100%);
+    background-color: rgb(48,48,48);
     min-height: 100vh;
 }
 
 .myCard {
     background-color: aliceblue;
     text-align: center;
+}
+
+.borderLeft{
+    border-left: 4px solid rgb(224,194,194); 
+    animation: border_anim 1s linear forwards;   
+}
+
+@keyframes border_anim {
+	0%{
+		height: 0%;
+	}
+	100%{
+		height: 26%;
+	}
 }

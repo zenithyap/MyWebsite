@@ -1,5 +1,6 @@
 import { Container, Card } from '@mui/material';
 import '../styling/text.css'
+import FadeIn from '../animations/FadeIn';
 
 export default function EducationTimeline() {
   const educationArr = [
@@ -22,12 +23,18 @@ export default function EducationTimeline() {
       {
         educationArr && educationArr.map((item, id) => {
           return (
-            <Card variant='outlined' sx={{ m: 2, padding: 2, boxShadow: '1px 2px 9px' }}>
-              <div>
-                <h5>{item.date}</h5>
-                <div className='p1left' >{item.description}</div>
-              </div>
-            </Card>
+            <FadeIn>
+              <Card variant='outlined' sx={{ m: 2, 
+                                            padding: 2, 
+                                            boxShadow: '1px 2px 9px',
+                                            backgroundColor: 'rgb(35,35,35)' }}>
+                <div>
+                  <h5>{item.date}</h5>
+                  <div className='p1left' >{item.description}</div>
+                </div>
+              </Card>
+            </FadeIn>
+
           )
         })
       }
