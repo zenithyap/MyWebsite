@@ -6,16 +6,18 @@
 .myTitleLeft {
   font-size: 400%;
   font-weight: bold;
+  white-space: nowrap;
 }
 
 .myTitleCenter {
-  font-size: 70px;
+  font-size: 400%;
   font-weight: bold;
   text-align: center;
 }
 
 .p1 {
   text-align: center;
+  color: rgb(200, 200, 200);
 }
 
 .p1left {

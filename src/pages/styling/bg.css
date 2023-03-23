@@ -21,7 +21,7 @@ body, html {
 }
 
 .borderLeft{
-    border-left: 4px solid rgb(224,194,194); 
+    border-left: 4px solid #E37383; 
     animation: border_anim 1s linear forwards;   
 }
 

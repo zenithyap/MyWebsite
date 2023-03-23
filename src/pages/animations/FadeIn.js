@@ -2,11 +2,11 @@ import { useState } from "react";
 import { Waypoint } from "react-waypoint";
 import { useSpring, animated } from '@react-spring/web'
 
-const FadeIn = ({ children }) => {
+const FadeIn = ({ children, delayTime }) => {
   const [inView, setInview] = useState(false);
 
   const transition = useSpring({
-    delay: 200,
+    delay: delayTime,
     to: {
       y: !inView ? 24 : 0,
       opacity: !inView ? 0 : 1,
