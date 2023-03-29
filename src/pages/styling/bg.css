@@ -26,10 +26,10 @@ body, html {
 }
 
 @keyframes border_anim {
-	0%{
+	from{
 		height: 0%;
 	}
-	100%{
+    to{
 		height: 26%;
 	}
 }

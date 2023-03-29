@@ -1,24 +1,24 @@
 import '../styling/text.css'
 import '../styling/bg.css'
+import '../styling/progressBar.css'
 import NavigationBar from '../NavigationBar';
 import About from '../aboutpage/About'
 import { Container } from '@mui/material';
 import FadeIn from '../animations/FadeIn';
 import FadeInOpacity from '../animations/FadeInOpacity'
-import HorizontalProgress from '../animations/HorizontalProgress'
 
 export default function Home() {
+  const win = window.innerHeight;
   return (
     <div className='bg'>
       <NavigationBar />
       <FadeInOpacity>
       <picture>
         <source srcSet={require("../../images/my_image.jpg" )}
-                media="(min-width: 1240px)"/>
-        <img style={{ height:'45%', 
-                  position:'absolute',
-                  top:'33%',
-                  left:'38%',
+                media="(min-width: 1100px)"/>
+        <img style={{ width:'60%', 
+                  marginTop:win/4.5,
+                  marginLeft:'35%',
                   borderRadius:30 }}
                   src={require("../../images/my_image_mobile.jpg")} alt="" />
       </picture>

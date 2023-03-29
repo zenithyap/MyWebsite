@@ -8,9 +8,6 @@ import "bootstrap/js/src/collapse.js";
 
 
 export default function NavigationBar() {
-  const log = () => {
-    console.log("noob")
-  }
   return (
     <nav className='navbar navbar-dark navbar-expand-md' >
       <Container>
@@ -18,12 +15,11 @@ export default function NavigationBar() {
         <img style={{height:'50px'}} src={require("../images/logo.png")} alt=''/>
       </Navbar.Brand>
       <button
-        className="btn btn-primary navbar-toggler"
+        className="navbar-toggler"
         type="button"
         data-bs-toggle="collapse"
         data-bs-target="#navbarCollapse"
         aria-label="Toggle navigation"
-        onClick={log}
         aria-expanded="false" 
         aria-controls="navbarCollapse"
       >

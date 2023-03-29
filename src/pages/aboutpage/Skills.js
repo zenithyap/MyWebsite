@@ -1,7 +1,8 @@
 import '../styling/text.css'
 import Card from '@mui/material/Card'
-import Container from '@mui/material/Container'
+import { Grid } from '@mui/material';
 import FadeIn from '../animations/FadeIn';
+import ProgressBar from '../animations/ProgressBar';
 
 export default function Skills() {
   const skillsArr = [
@@ -10,24 +11,37 @@ export default function Skills() {
 			description: 'English, Chinese'
 		},
 		{
-			title: 'Coding Languages',
-			description: 'Python, Java, Javascript, HTML, CSS, Reactjs'
-		},
-		{
 			title: 'Soft Skills',
 			description: "Teamwork, Work Ethic, Time management"
 		}
 	]
   return (
-		<Container>
+		<Grid container>
+			<Grid item xs={12} lg={6}>
+				<FadeIn delayTime={200}>
+					<Card sx={{m:2, 
+																padding:2,
+																boxShadow:'1px 2px 9px',
+																backgroundColor:'rgb(35,35,35)'}}>
+						<h5>Programming Languages</h5>
+						<ProgressBar title="Java" percent="eight"/>
+						<ProgressBar title="Python" percent="seven"/>
+						<ProgressBar title="ReactJS" percent="six"/>
+						<ProgressBar title="JavaScript" percent="five"/>
+						<ProgressBar title="HTML" percent="five"/>
+						<ProgressBar title="CSS" percent="five"/>
+					</Card>
+				</FadeIn>
+			</Grid>
+			<Grid item xs={12} lg={6}>
 			{
 				skillsArr && skillsArr.map((item, id) => {
-					return (
-						<FadeIn>
+					return (						
+						<FadeIn key={id} delayTime={300}>
 							<Card variant='outlined' sx={{m:2, 
-																						padding:2,
-																						boxShadow:'1px 2px 9px',
-																						backgroundColor:'rgb(35,35,35)'}}>
+														padding:2,
+														boxShadow:'1px 2px 9px',
+														backgroundColor:'rgb(35,35,35)'}}>
 								<div>
 									<h5>{item.title}</h5>
 									<div className='p1left'>{item.description}</div>
@@ -37,6 +51,7 @@ export default function Skills() {
 						)
 					})
 				}
-		</Container>
+			</Grid>
+		</Grid>
   )
 }

@@ -23,7 +23,7 @@ export default function EducationTimeline() {
       {
         educationArr && educationArr.map((item, id) => {
           return (
-            <FadeIn>
+            <FadeIn key={id} delayTime={200}>
               <Card variant='outlined' sx={{ m: 2, 
                                             padding: 2, 
                                             boxShadow: '1px 2px 9px',
