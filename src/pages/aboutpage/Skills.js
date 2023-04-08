@@ -22,7 +22,7 @@ export default function Skills() {
 					<Card sx={{m:2, 
 																padding:2,
 																boxShadow:'1px 2px 9px',
-																backgroundColor:'rgb(35,35,35)'}}>
+																backgroundColor:'rgba(19,27,37,1)'}}>
 						<h5>Programming Languages</h5>
 						<ProgressBar title="Java" percent="eight"/>
 						<ProgressBar title="Python" percent="seven"/>
@@ -41,7 +41,7 @@ export default function Skills() {
 							<Card variant='outlined' sx={{m:2, 
 														padding:2,
 														boxShadow:'1px 2px 9px',
-														backgroundColor:'rgb(35,35,35)'}}>
+														backgroundColor:'rgba(19,27,37,1)'}}>
 								<div>
 									<h5>{item.title}</h5>
 									<div className='p1left'>{item.description}</div>

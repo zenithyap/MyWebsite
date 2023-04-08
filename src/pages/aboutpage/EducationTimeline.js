@@ -27,7 +27,7 @@ export default function EducationTimeline() {
               <Card variant='outlined' sx={{ m: 2, 
                                             padding: 2, 
                                             boxShadow: '1px 2px 9px',
-                                            backgroundColor: 'rgb(35,35,35)' }}>
+                                            backgroundColor: 'rgba(19,27,37,1)' }}>
                 <div>
                   <h5>{item.date}</h5>
                   <div className='p1left' >{item.description}</div>
