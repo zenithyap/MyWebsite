@@ -1,25 +1,26 @@
 .stars {
+  height: 1px;
+  width: 1px;
+  border-radius: 10px;
+  background-color: white;
+  animation: blinking 1.6s linear infinite;
+}
+
+.stars2 {
   height: 2px;
   width: 2px;
   border-radius: 10px;
   background-color: white;
-  animation: blinking 1.6s linear infinite
+  animation: blinking 2s linear infinite
 }
 
-.stars2 {
+.stars3 {
   height: 3px;
   width: 3px;
   border-radius: 10px;
   background-color: white;
-  animation: blinking 3.1s linear infinite
-}
+  animation: blinking 2.4s linear infinite;
 
-.stars3 {
-  height: 4px;
-  width: 4px;
-  border-radius: 10px;
-  background-color: white;
-  animation: blinking 4.2s linear infinite
 }
 
 @keyframes blinking {

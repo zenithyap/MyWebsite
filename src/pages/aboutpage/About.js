@@ -9,7 +9,6 @@ import RocketIcon from '@mui/icons-material/Rocket';
 import FadeIn from '../animations/FadeIn';
 
 export default function About() {
-  const lmaokai = "progressBar six";
   return (
     <div style={{ top: '100%', position: 'absolute', marginLeft: 'auto', marginRight: 'auto', left: '0', right: '0' }}>
       <section id='about_me' />

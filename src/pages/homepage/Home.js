@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className='bg'>
       <NavigationBar />
-      <Stars numStars={200}></Stars>
+      <Stars numStars={100}></Stars>
         <Container className='borderLeft' maxWidth='md' style={{position:'absolute', 
                         top:'45%', 
                         left:"50%", 
