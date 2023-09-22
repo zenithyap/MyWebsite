@@ -41,7 +41,6 @@ function useRecord() {
 }
 
 function EntryList({ list, deleteEntry }) {
-  // why got => e ?
   // Higher order delete entry click handler
   const handleDeleteEntry = index => e => {
     deleteEntry(index)
