@@ -66,7 +66,6 @@ function EntryList({ list, deleteEntry }) {
   )
 }
 
-// useRef.current.focus() purpose?
 function Entry({ addEntry }) {
   const [message, setMessage] = useState("")
   const handleOnChange = e => setMessage(e.target.value)
