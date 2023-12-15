@@ -25,7 +25,6 @@ export default function Stars({ numStars }) {
     let starClass = 'stars3';
     starsArr.push({top:`${top}px`, left:`${left}px`, starClass:starClass})
   }
-  console.log(starsArr)
   return (
     <div>
       {

@@ -17,7 +17,7 @@ export default function Skills() {
 	]
   return (
 		<Grid container>
-			<Grid item xs={12} lg={6}>
+			<Grid item xs={12} lg={6} sm={6}>
 				<FadeIn delayTime={200}>
 					<Card sx={{m:2, 
 																padding:2,
@@ -33,7 +33,7 @@ export default function Skills() {
 					</Card>
 				</FadeIn>
 			</Grid>
-			<Grid item xs={12} lg={6}>
+			<Grid item xs={12} lg={6} sm={6}>
 			{
 				skillsArr && skillsArr.map((item, id) => {
 					return (						

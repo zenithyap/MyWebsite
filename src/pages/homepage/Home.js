@@ -6,13 +6,14 @@ import About from '../aboutpage/About'
 import { Container } from '@mui/material';
 import FadeIn from '../animations/FadeIn';
 import Stars from '../animations/Stars'
+import Orbit from '../animations/Orbit'
 
 export default function Home() {
   const win = window.innerHeight;
   return (
     <div className='bg'>
       <NavigationBar />
-      <Stars numStars={100}></Stars>
+      <Stars numStars={200}></Stars>
         <Container className='borderLeft' maxWidth='md' style={{position:'absolute', 
                         top:'45%', 
                         left:"50%", 

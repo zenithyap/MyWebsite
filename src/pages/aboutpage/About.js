@@ -1,4 +1,4 @@
-import Timeline from './EducationTimeline'
+import Timeline from './educationTimeline/EducationTimeline'
 import Skills from './Skills'
 import '../styling/icons.css'
 import { Container, Box } from '@mui/material';

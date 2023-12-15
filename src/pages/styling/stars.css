@@ -1,6 +1,7 @@
 .stars {
   height: 1px;
   width: 1px;
+  z-index: 0;
   border-radius: 10px;
   background-color: white;
   animation: blinking 1.6s linear infinite;
@@ -9,6 +10,7 @@
 .stars2 {
   height: 2px;
   width: 2px;
+  z-index: 0;
   border-radius: 10px;
   background-color: white;
   animation: blinking 2s linear infinite
@@ -17,9 +19,10 @@
 .stars3 {
   height: 3px;
   width: 3px;
+  z-index: 0;
   border-radius: 10px;
   background-color: white;
-  animation: blinking 2.4s linear infinite;
+  animation: blinking 2.5s linear infinite;
 
 }
 
