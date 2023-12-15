@@ -41,7 +41,6 @@ function useRecord() {
 }
 
 function EntryList({ list, deleteEntry }) {
-  // why got => e ?
   // Higher order delete entry click handler
   const handleDeleteEntry = index => e => {
     deleteEntry(index)
@@ -67,7 +66,6 @@ function EntryList({ list, deleteEntry }) {
   )
 }
 
-// useRef.current.focus() purpose?
 function Entry({ addEntry }) {
   const [message, setMessage] = useState("")
   const handleOnChange = e => setMessage(e.target.value)
