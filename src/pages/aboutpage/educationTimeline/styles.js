@@ -15,7 +15,7 @@ export const stepperStyle = {
         display: "none"
     },
     '.MuiStepLabel-root .Mui-active': {
-        color: "rgb(240, 105, 180)"
+        color: "#9476c1"
     },
     '& .MuiStepIcon-text': {
         fill: "black"

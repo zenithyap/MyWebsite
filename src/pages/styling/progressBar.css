@@ -1,6 +1,6 @@
 .progressBar {
     height: 20px;
-    background-color: rgb(190,169,222);
+    background-color: #9476c1;
     animation: progressBarAnim 1s linear forwards
 }
 
