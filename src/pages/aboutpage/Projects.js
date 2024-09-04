@@ -20,7 +20,7 @@ export default function Projects() {
 			<div className='h_line' />
 			<Container sx={{ marginTop: '3%', marginBottom: '12%' }} maxWidth="lg" >
 				<Grid container>
-					<Grid item xs={4} display={'flex'}>
+					<Grid item xs={12} lg={4} display={'flex'}>
 						<Card sx={{
 							m: 2,
 							padding: 2,
@@ -38,7 +38,7 @@ export default function Projects() {
 						</FadeIn>
 						</Card>
 					</Grid>
-					<Grid item xs={4} display={'flex'}>
+					<Grid item xs={12} lg={4} display={'flex'}>
 						<Card sx={{
 							m: 2,
 							padding: 2,
@@ -57,7 +57,7 @@ export default function Projects() {
 						</Card>
 						
 					</Grid>
-					<Grid item xs={4} display={'flex'}>
+					<Grid item xs={12} lg={4} display={'flex'}>
 						<Card sx={{
 							m: 2,
 							padding: 2,
