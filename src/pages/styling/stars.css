@@ -4,7 +4,7 @@
   z-index: 0;
   border-radius: 10px;
   background-color: white;
-  animation: blinking 1.6s linear infinite;
+  animation: blinking 2.5s linear infinite;
 }
 
 .stars2 {
@@ -13,7 +13,7 @@
   z-index: 0;
   border-radius: 10px;
   background-color: white;
-  animation: blinking 2s linear infinite
+  animation: blinking 3s linear infinite
 }
 
 .stars3 {
@@ -22,7 +22,7 @@
   z-index: 0;
   border-radius: 10px;
   background-color: white;
-  animation: blinking 2.5s linear infinite;
+  animation: blinking 3.5s linear infinite;
 
 }
 
