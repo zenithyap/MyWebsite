@@ -8,11 +8,12 @@ import {
 import go1 from '../../images/go1.png';
 import chatbot from '../../images/chatbot.png';
 import bookmark from '../../images/bookmark.png';
+import '../styling/text.css';
 
 export default function Projects() {
 	return (
 		<div style={{ position: 'absolute', top: '270%', marginLeft: 'auto', marginRight: 'auto', left: '0', right: '0' }}>
-			<section id='Projects' />
+			<section id='my_projects' />
 			<FadeIn delayTime={200}>
 				<div className='myTitleCenter'>My Projects</div>
 			</FadeIn>

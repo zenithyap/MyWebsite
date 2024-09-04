@@ -21,10 +21,11 @@
 .p1 {
   text-align: center;
   color: rgb(200, 200, 200);
+  font-family: 'Tahoma', sans-serif;
 }
 
 .p1left {
-  font-family: serif;
+  font-family: 'Tahoma', sans-serif;
 }
 
 h3 {

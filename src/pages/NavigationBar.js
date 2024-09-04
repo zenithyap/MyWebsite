@@ -27,6 +27,7 @@ export default function NavigationBar() {
         <Nav className='justify-content-end'>
           <Nav.Link className='link-secondary' as={Link} to="/">Home</Nav.Link>
           <Nav.Link className='link-secondary' as={HashLink} to="/#about_me">About Me</Nav.Link>
+          <Nav.Link className='link-secondary' as={HashLink} to="/#my_projects">Projects</Nav.Link>
         </Nav>
       </div>
       </Container>
