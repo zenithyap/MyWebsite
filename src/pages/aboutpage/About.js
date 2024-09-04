@@ -11,7 +11,6 @@ export default function About() {
       <FadeIn delayTime={200}>
         <div className='myTitleCenter'>About Me</div>
       </FadeIn>
-      <div className='h_line' />
       <Container sx={{ marginTop: '3%', marginBottom: '12%' }} maxWidth="md" >
         <FadeIn delayTime={200}>
           <div className='p1'>
@@ -20,12 +19,10 @@ export default function About() {
         </FadeIn>
         <Container sx={{ marginTop: '20%' }}>
           <h3>Education</h3>
-          <div className='h_line' />
           <Timeline />
         </Container>
         <Container sx={{ marginTop: '20%' }}>
           <h3>Skills</h3>
-          <div className='h_line' />
           <Skills />
         </Container>
       </Container>

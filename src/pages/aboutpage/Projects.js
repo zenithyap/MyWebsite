@@ -17,7 +17,6 @@ export default function Projects() {
 			<FadeIn delayTime={200}>
 				<div className='myTitleCenter'>My Projects</div>
 			</FadeIn>
-			<div className='h_line' />
 			<Container sx={{ marginTop: '3%', marginBottom: '12%' }} maxWidth="lg" >
 				<Grid container>
 					<Grid item xs={12} lg={4} display={'flex'}>
