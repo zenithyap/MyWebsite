@@ -31,7 +31,6 @@ export default function NavigationBar() {
           <Nav.Link className='link-secondary' as={Link} to="/">Home</Nav.Link>
           <Nav.Link className='link-secondary' as={HashLink} to="/#about_me">About Me</Nav.Link>
           <Nav.Link className='link-secondary' as={Link} to="/Hobbies">Hobbies</Nav.Link>
-          <Nav.Link className='link-secondary' as={Link} to="/record">Record</Nav.Link>
         </Nav>
       </div>
       </Container>
