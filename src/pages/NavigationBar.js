@@ -11,9 +11,6 @@ export default function NavigationBar() {
   return (
     <nav className='navbar navbar-dark navbar-expand-md' >
       <Container>
-      <Navbar.Brand href="/">
-        <img style={{height:'50px'}} src={require("../images/logo.png")} alt=''/>
-      </Navbar.Brand>
       <button
         className="navbar-toggler"
         type="button"
@@ -30,7 +27,6 @@ export default function NavigationBar() {
         <Nav className='justify-content-end'>
           <Nav.Link className='link-secondary' as={Link} to="/">Home</Nav.Link>
           <Nav.Link className='link-secondary' as={HashLink} to="/#about_me">About Me</Nav.Link>
-          <Nav.Link className='link-secondary' as={Link} to="/Hobbies">Hobbies</Nav.Link>
         </Nav>
       </div>
       </Container>

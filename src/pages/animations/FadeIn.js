@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState } from "react";
 import { Waypoint } from "react-waypoint";
 import { useSpring, animated } from '@react-spring/web'
