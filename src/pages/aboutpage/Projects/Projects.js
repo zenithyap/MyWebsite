@@ -16,7 +16,7 @@ const robotDog = {
 	title: 'Robot Dog',
 	image: go1,
 	frontDescription: 'Autonomous navigation go1 robot',
-	backDescription: 'Cooperated with a PhD student in developing an autonomous navigation Spot robot. My role was to create a stair climbing model with data collected from manually controlling the robot.',
+	backDescription: 'Cooperated with a PhD student in developing an autonomous navigation go1 robot. My role was to create a stair climbing model with data collected from manually controlling the robot.',
 	technologies: ['ROS', 'C++', 'Python', 'Gazebo'],
 };
 
