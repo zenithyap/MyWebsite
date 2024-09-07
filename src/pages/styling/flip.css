@@ -1,0 +1,31 @@
+.flipCardInner {
+    display: grid;
+    grid-template-columns: 1fr;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    background-color: rgb(19,27,37,1);
+    box-shadow: 1px 2px 9px black;
+    height: 100%;
+    padding: 4%;
+}
+
+.flipCard .flipCardInner {
+    transform: rotateY(180deg);
+}
+
+.flipCardFront,
+.flipCardBack {
+    backface-visibility: hidden;
+    grid-row-start: 1;
+    grid-column-start: 1;
+}
+
+.flipCardFront {
+    z-index: 2;
+    transform: rotateY(0deg);
+    
+}
+
+.flipCardBack {
+    transform: rotateY(180deg);
+}

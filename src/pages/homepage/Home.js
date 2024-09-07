@@ -3,11 +3,11 @@ import '../styling/bg.css'
 import '../styling/progressBar.css'
 import NavigationBar from '../NavigationBar';
 import About from '../aboutpage/About';
-import Projects from '../aboutpage/Projects';
+import Projects from '../aboutpage/Projects/Projects';
 import { Container } from '@mui/material';
 import FadeIn from '../animations/FadeIn';
 import Stars from '../animations/Stars';
-import Orbit from '../animations/Orbit';
+import Footer from '../aboutpage/Footer';
 
 export default function Home() {
   const win = window.innerHeight;
@@ -39,8 +39,11 @@ export default function Home() {
           }}>Aspiring web developer</h5>
         </FadeIn>
       </Container>
+      <div className='nextPage'>
       <About />
       <Projects />
+      <Footer />
+      </div>
     </div>
   )
 }

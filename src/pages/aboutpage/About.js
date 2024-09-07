@@ -6,7 +6,7 @@ import FadeIn from '../animations/FadeIn';
 
 export default function About() {
   return (
-    <div style={{ top: '100%', position: 'absolute', marginLeft: 'auto', marginRight: 'auto', left: '0', right: '0' }}>
+    <div style={{ marginLeft: 'auto', marginRight: 'auto', left: '0', right: '0' }}>
       <section id='about_me' />
       <FadeIn delayTime={200}>
         <div className='myTitleCenter'>About Me</div>

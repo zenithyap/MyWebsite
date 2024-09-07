@@ -42,7 +42,15 @@ h1 {
 }
 
 .h_line {
-  border-bottom: 3px solid rgb(194, 194, 194);
-  width: 20%;
+  border-bottom: 1px solid rgb(194, 194, 194);
+  width: 80%;
   margin: auto;
+}
+
+.hover {
+  cursor: default;
+}
+
+.hover:hover{
+  cursor: pointer;
 }

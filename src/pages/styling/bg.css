@@ -1,7 +1,8 @@
-body, html {
+body,
+html {
     height: 100%;
-    background: rgba(27,39,53,1);
-    color: rgb(224,224,224)
+    background: rgba(27, 39, 53, 1);
+    color: rgb(224, 224, 224)
 }
 
 .material-icons {
@@ -11,8 +12,8 @@ body, html {
 }
 
 .bg {
-    background: rgb(27,39,53);
-    background: linear-gradient(0deg, rgba(27,39,53,1) 0%, rgba(9,10,15,1) 100%);
+    background: rgb(27, 39, 53);
+    background: linear-gradient(0deg, rgba(27, 39, 53, 1) 0%, rgba(9, 10, 15, 1) 100%);
     min-height: 100vh;
 }
 
@@ -21,16 +22,23 @@ body, html {
     text-align: center;
 }
 
-.borderLeft{
-    border-left: 4px solid rgb(190,169,222); 
-    animation: border_anim 2s linear forwards;   
+.borderLeft {
+    border-left: 4px solid rgb(190, 169, 222);
+    animation: border_anim 2s linear forwards;
+}
+
+.nextPage {
+    position: relative;
+    top: 100vh;
+    height: auto;
 }
 
 @keyframes border_anim {
-	from{
-		max-height: 0%;
-	}
-    to{
-		max-height: 100%;
-	}
+    from {
+        max-height: 0%;
+    }
+
+    to {
+        max-height: 100%;
+    }
 }
