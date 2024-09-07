@@ -3,16 +3,17 @@ import Card from '@mui/material/Card'
 import { Grid } from '@mui/material';
 import FadeIn from '../animations/FadeIn';
 import ProgressBar from '../animations/ProgressBar';
+import { Description } from '@mui/icons-material';
 
 export default function Skills() {
 	const skillsArr = [
 		{
 			title: 'Languages',
-			description: 'English, Chinese'
+			description: ['English (Written, Spoken)', 'Chinese (Spoken)']
 		},
 		{
 			title: 'Soft Skills',
-			description: "Teamwork, Work Ethic, Time management"
+			description: ['Teamwork', 'Time Management', 'Adaptability', 'Empathy']
 		}
 	]
 	return (
@@ -48,7 +49,13 @@ export default function Skills() {
 								}}>
 									<div>
 										<h5>{item.title}</h5>
-										<div className='p1left'>{item.description}</div>
+										<ul>
+											{
+												item.description.map((i, id) => (
+													<li key={id}>{i}</li>
+												))
+											}
+										</ul>
 									</div>
 								</Card>
 							</FadeIn>
