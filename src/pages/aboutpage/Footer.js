@@ -15,7 +15,10 @@ export default function Footer() {
                 onChange={(event, newValue) => {
                     setValue(newValue);
                 }}
-                sx={{backgroundColor: 'rgb(27, 39, 53)', marginBottom: '3%'}}
+                sx={{
+                    backgroundColor: 'rgb(27, 39, 53)', 
+                    marginBottom: '3%',
+                }}
             >
                 <BottomNavigationAction href='mailto:zenithyap88@gmail.com' label="Email" icon={<img src={email} width={'20%'} />}  />
                 <BottomNavigationAction href='https://www.linkedin.com/in/zenithyap/' label="LinkedIn" icon={<img src={linkedin} width={'20%'}/>} />

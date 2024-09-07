@@ -24,16 +24,16 @@ const chatBot = {
 	title: 'ChatBot Task Manager',
 	image: chatbot,
 	frontDescription: 'A command-line task manager',
-	backDescription: 'testingaewgnasdoinaos aenf ainfaewngfaeoinfga iengian gialn gawrnbgil awrbngliwabngilawngilawnbgilwagni awg iawegai wgniawga',
-	technologies: ['Git, Java, Gradle'],
+	backDescription: 'A command-line task manager done as an school project. It is able to add/delete tasks, mark/unmark tasks and find tasks by keyword.',
+	technologies: ['Git', 'Java', 'Gradle'],
 };
 
 const bookmarkApp = {
 	title: 'Bookmark App',
 	image: bookmark,
 	frontDescription: 'Desktop application for managing bookmarks',
-	backDescription: 'testingaewgnasdoinaos aenf ainfaewngfaeoinfga iengian gialn gawrnbgil awrbngliwabngilawngilawnbgilwagni awg iawegai wgniawga',
-	technologies: ['Git, Java, CSS, Gradle'],
+	backDescription: 'Bookmark application done as a school project in a team of five. My role was designing and implementing the front end design. The app is able to support books that currently being read, finished books as well as books to read.',
+	technologies: ['Git', 'Java', 'CSS', 'Gradle'],
 }
 
 export default function Projects() {
@@ -63,7 +63,7 @@ export default function Projects() {
 						frontDescription={chatBot.frontDescription}
 						backDescription={chatBot.backDescription}
 						technologies={chatBot.technologies}
-						delayTime={350}
+						delayTime={400}
 					/>
 					<FlipCard
 						title={bookmarkApp.title}
@@ -71,7 +71,7 @@ export default function Projects() {
 						frontDescription={bookmarkApp.frontDescription}
 						backDescription={bookmarkApp.backDescription}
 						technologies={bookmarkApp.technologies}
-						delayTime={450}
+						delayTime={600}
 					/>
 				</Grid>
 			</Container>
