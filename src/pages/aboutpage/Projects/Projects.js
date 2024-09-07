@@ -56,6 +56,8 @@ export default function Projects() {
 						backDescription={robotDog.backDescription}
 						technologies={robotDog.technologies}
 						delayTime={200}
+						link={'https://www.ccsgp.comp.nus.edu.sg/robotic-dog-intern'}
+						imageWidth={'70%'}
 					/>
 					<FlipCard
 						title={chatBot.title}
@@ -64,6 +66,8 @@ export default function Projects() {
 						backDescription={chatBot.backDescription}
 						technologies={chatBot.technologies}
 						delayTime={400}
+						link={'https://github.com/zenithyap/ip'}
+						imageWidth={'70%'}
 					/>
 					<FlipCard
 						title={bookmarkApp.title}
@@ -72,6 +76,8 @@ export default function Projects() {
 						backDescription={bookmarkApp.backDescription}
 						technologies={bookmarkApp.technologies}
 						delayTime={600}
+						link={'https://github.com/zenithyap/tp'}
+						imageWidth={'80%'}
 					/>
 				</Grid>
 			</Container>

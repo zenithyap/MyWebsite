@@ -54,3 +54,12 @@ h1 {
 .hover:hover{
   cursor: pointer;
 }
+
+.link {
+  text-decoration: none;
+  color: #9476c1;
+}
+
+.link:hover {
+  color: rgb(44, 71, 101);
+}

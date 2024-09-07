@@ -24,9 +24,12 @@
 .flipCardFront {
     z-index: 2;
     transform: rotateY(0deg);
-    
+    display: flex;
+    flex-direction: column;
 }
 
 .flipCardBack {
     transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
 }

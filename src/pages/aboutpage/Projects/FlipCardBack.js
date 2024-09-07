@@ -5,7 +5,7 @@ import {
 import '../../styling/text.css';
 import '../../styling/flip.css';
 
-export default function FlipCardBack({ title, description, technologies }) {
+export default function FlipCardBack({ title, description, technologies, link }) {
     return (
         <div className='flipCardBack'>
             <Stack
@@ -26,6 +26,9 @@ export default function FlipCardBack({ title, description, technologies }) {
                     </ul>
                 </div>
             </Stack>
+            <a href={link} className='p1 link' style={{marginTop: 'auto'}}>
+                    Find out more here!
+            </a>
         </div>
     )
 }

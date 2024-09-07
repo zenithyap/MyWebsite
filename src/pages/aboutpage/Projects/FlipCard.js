@@ -6,7 +6,7 @@ import FlipCardBack from './FlipCardBack';
 import FlipCardFront from './FlipCardFront';
 import FadeIn from '../../animations/FadeIn';
 
-export default function FlipCard({ delayTime, title, image, frontDescription, backDescription, technologies }) {
+export default function FlipCard({ imageWidth, link, delayTime, title, image, frontDescription, backDescription, technologies }) {
     const [flipCard, setFlipCard] = useState(false);
 
     return (
@@ -23,11 +23,13 @@ export default function FlipCard({ delayTime, title, image, frontDescription, ba
                     image={image}
                     description={frontDescription}
                     delayTime={delayTime}
+                    imageWidth={imageWidth}
                 />
                 <FlipCardBack
                     title={title}
                     description={backDescription}
                     technologies={technologies}
+                    link={link}
                 />
             </div>
         </Grid>

@@ -7,7 +7,7 @@ import '../../styling/text.css';
 import '../../styling/flip.css';
 import { Height } from "@mui/icons-material";
 
-export default function FlipCardFront({ delayTime, title, image, description }) {
+export default function FlipCardFront({ imageWidth, delayTime, title, image, description }) {
     return (
         <div className='flipCardFront'>
             <FadeIn delayTime={delayTime}>
@@ -17,7 +17,7 @@ export default function FlipCardFront({ delayTime, title, image, description }) 
                     justifyContent={'center'} alignItems={'center'}
                 >
                     <h5>{title}</h5>
-                    <img src={image} style={{ width: '70%' }} />
+                    <img src={image} style={{ width: imageWidth }} />
                     <div className='p1'>{description}</div>
                 </Stack>
             </FadeIn>
