@@ -40,9 +40,9 @@ export default function Home() {
         </FadeIn>
       </Container>
       <div className='nextPage'>
-      <About />
-      <Projects />
-      <Footer />
+        <About />
+        <Projects />
+        <Footer />
       </div>
     </div>
   )

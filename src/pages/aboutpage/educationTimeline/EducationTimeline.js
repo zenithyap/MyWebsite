@@ -4,7 +4,7 @@ import {
   Stepper, 
   Step, 
   StepButton,
-  StepIcon
+  Stack
 } from '@mui/material';
 import '../../styling/text.css'
 import FadeIn from '../../animations/FadeIn';
@@ -15,15 +15,21 @@ export default function EducationTimeline() {
   const educationArr = [
     {
       date: '2012 - 2016',
-      description: 'Chung Cheng High School Yishun'
+      school: 'Chung Cheng High School Yishun',
+      description: 'Completed GCE O-Level examinations with distinctions in Mathematics and Science',
+      extra: 'CCA: Member of Wushu Club',
     },
     {
       date: '2016 - 2018',
-      description: 'Innova Junior College'
+      school: 'Innova Junior College',
+      description: 'Completed GCE A-Level examinations with distinctions in Math, Physics and Chemistry',
+      extra: 'CCA: Member of Shooting Club',
     },
     {
       date: '2021 - current',
-      description: "Computing major at National University of Singapore"
+      school: "National University of Singapore",
+      description: 'Computing Major with Specialisation in Software Engineering',
+      extra: '',
     }
   ]
   const steps = ["Secondary", "Tertiary", "University"]
@@ -33,10 +39,12 @@ export default function EducationTimeline() {
   const setDisplay = (index) => {
     const item = educationArr[index]
     setToDisplay(      
-      <div>
-        <h5>{item.date}</h5>
+      <Stack spacing={2}>
+        <h5>{item.school}</h5>
+        <div>{item.date}</div>
         <div className='p1left'>{item.description}</div>
-      </div>
+        <div className='p1left'>{item.extra}</div>
+      </Stack>
     )
   }
 

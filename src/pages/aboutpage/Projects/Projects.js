@@ -42,7 +42,7 @@ export default function Projects() {
 	const isMobile = useMediaQuery(theme.breakpoints.down('md'));
 
 	return (
-		<div style={{marginLeft: 'auto', marginRight: 'auto', left: '0', right: '0' }}>
+		<div style={{marginTop: '15%', marginLeft: 'auto', marginRight: 'auto', left: '0', right: '0' }}>
 			<section id='my_projects' />
 			<FadeIn delayTime={200}>
 				<div className='myTitleCenter'>My Projects</div>

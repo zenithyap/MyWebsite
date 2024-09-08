@@ -22,6 +22,7 @@ export default function Skills() {
 				<FadeIn delayTime={200}>
 					<Card sx={{
 						m: 2,
+						mr: 1,
 						padding: 2,
 						boxShadow: '1px 2px 9px',
 						backgroundColor: 'rgba(19,27,37,1)'
@@ -43,6 +44,7 @@ export default function Skills() {
 							<FadeIn key={id} delayTime={300}>
 								<Card variant='outlined' sx={{
 									m: 2,
+									ml: 1,
 									padding: 2,
 									boxShadow: '1px 2px 9px',
 									backgroundColor: 'rgba(19,27,37,1)'
