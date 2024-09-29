@@ -28,12 +28,12 @@ export default function Skills() {
 						backgroundColor: 'rgba(19,27,37,1)'
 					}}>
 						<h5>Programming Languages</h5>
-						<ProgressBar title="Java" percent="eight" />
-						<ProgressBar title="Python" percent="seven" />
-						<ProgressBar title="ReactJS" percent="six" />
-						<ProgressBar title="JavaScript" percent="five" />
+						<ProgressBar title="Python" percent="eight" />
+						<ProgressBar title="ReactJS" percent="seven" />
+						<ProgressBar title="JavaScript" percent="six" />
+						<ProgressBar title="CSS" percent="six" />
 						<ProgressBar title="HTML" percent="five" />
-						<ProgressBar title="CSS" percent="five" />
+						<ProgressBar title="Java" percent="five" />
 					</Card>
 				</FadeIn>
 			</Grid>

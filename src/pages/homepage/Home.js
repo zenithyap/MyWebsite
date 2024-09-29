@@ -10,11 +10,14 @@ import Stars from '../animations/Stars';
 import Footer from '../aboutpage/Footer';
 
 export default function Home() {
-  const win = window.innerHeight;
+  const h = window.innerHeight;
+  const w = window.innerWidth;
+  const factor = 0.15;
+
   return (
     <div className='bg'>
       <NavigationBar />
-      <Stars numStars={200}></Stars>
+      <Stars numStars={Math.floor(Math.pow(h * w, 0.5) * factor)}></Stars>
       <Container className='borderLeft' maxWidth='md' style={{
         position: 'absolute',
         top: '45%',

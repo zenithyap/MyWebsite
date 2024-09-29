@@ -4,7 +4,6 @@
   z-index: 0;
   border-radius: 10px;
   background-color: white;
-  animation: blinking 2.5s linear infinite;
 }
 
 .stars2 {
@@ -13,7 +12,6 @@
   z-index: 0;
   border-radius: 10px;
   background-color: white;
-  animation: blinking 3s linear infinite
 }
 
 .stars3 {
@@ -22,8 +20,14 @@
   z-index: 0;
   border-radius: 10px;
   background-color: white;
-  animation: blinking 3.5s linear infinite;
+}
 
+.diamondStar {
+  background-color: white;
+  scale: 1;
+  height: 10px;
+  width: 5px;
+  clip-path: path("M2.5,0 L2.5,5 L5,5 Q2.5,3.75 2.5,0 M5,5 L2.5,5 L2.5,10 Q2.5,6.25 5,5 M2.5,10 L2.5,5 L0,5 Q2.5,6.25 2.5,10 M0,5 L2.5,5 L2.5,0 Q2.5,3.75 0,5");
 }
 
 @keyframes blinking {
