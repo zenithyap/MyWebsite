@@ -30,6 +30,43 @@
   clip-path: path("M2.5,0 L2.5,5 L5,5 Q2.5,3.75 2.5,0 M5,5 L2.5,5 L2.5,10 Q2.5,6.25 5,5 M2.5,10 L2.5,5 L0,5 Q2.5,6.25 2.5,10 M0,5 L2.5,5 L2.5,0 Q2.5,3.75 0,5");
 }
 
+.shootingStar {
+  background: white;
+  height: 5px;
+  width: 5px;
+  offset-path: path('M0,50 Q70,0 200,80');
+  animation: move-along-path 1s ease-out infinite; 
+  box-shadow: 0px 0px 20px 10px #8D5BD0;
+  border-radius: 100%;
+  visibility: hidden;
+}
+
+.shootingStar::before{
+    content:'';
+    position: absolute;
+    left: -800%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 3px;
+    background: linear-gradient(90deg,transparent,#FFF);
+}
+
+@keyframes move-along-path {
+  0% {
+    visibility: visible;
+    offset-distance: 0%;
+    opacity: 0;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    offset-distance: 100%;
+    opacity: 0;
+  }
+}
+
 @keyframes blinking {
   0% {
     opacity: 0
