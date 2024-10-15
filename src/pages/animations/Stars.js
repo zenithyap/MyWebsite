@@ -7,8 +7,8 @@ export default function Stars({ numStars }) {
   const min = 1.5;
   const delayMax = 30;
   const delayMin = 0;
-  const sMax = 1.5;
-  const sMin = 1;
+  const sMax = 1;
+  const sMin = 0.6;
   var w = window.innerWidth;
   var h = window.innerHeight;
 
@@ -40,6 +40,16 @@ export default function Stars({ numStars }) {
       animation: `blinking ${Math.random() * (max - min) + min}s linear infinite forwards`,
     })
   }
+
+  let top = Math.random() * h - 200;
+  let left = Math.random() * w - 250;
+  shootingStarArr.push({
+    top: `${top}px`,
+    left: `${left}px`,
+    starClass: 'shootingStar',
+    animation: `move-along-path ${Math.random() * (sMax - sMin) + sMin}s linear forwards`,
+    'animation-delay': `${Math.random() * 1}s`,
+  })
 
   for (let i = 0; i < 20; i++) {
     let top = Math.random() * h;
