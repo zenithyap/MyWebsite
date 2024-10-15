@@ -64,7 +64,7 @@ export default function Projects() {
 						frontDescription={soarzPortfolio.frontDescription}
 						backDescription={soarzPortfolio.backDescription}
 						technologies={soarzPortfolio.technologies}
-						delayTime={isMobile ? 200: 500}
+						delayTime={isMobile ? 200: 200}
 						link={'https://soarz.netlify.app'}
 						imageWidth={'95%'}
 					/>
@@ -74,7 +74,7 @@ export default function Projects() {
 						frontDescription={robotDog.frontDescription}
 						backDescription={robotDog.backDescription}
 						technologies={robotDog.technologies}
-						delayTime={isMobile ? 200: 200}
+						delayTime={isMobile ? 200: 300}
 						link={'https://www.ccsgp.comp.nus.edu.sg/robotic-dog-intern'}
 						imageWidth={'70%'}
 					/>
@@ -84,7 +84,7 @@ export default function Projects() {
 						frontDescription={chatBot.frontDescription}
 						backDescription={chatBot.backDescription}
 						technologies={chatBot.technologies}
-						delayTime={isMobile ? 200: 300}
+						delayTime={isMobile ? 200: 400}
 						link={'https://github.com/zenithyap/ip'}
 						imageWidth={'70%'}
 					/>
@@ -94,7 +94,7 @@ export default function Projects() {
 						frontDescription={bookmarkApp.frontDescription}
 						backDescription={bookmarkApp.backDescription}
 						technologies={bookmarkApp.technologies}
-						delayTime={isMobile ? 200: 400}
+						delayTime={isMobile ? 200: 500}
 						link={'https://github.com/zenithyap/tp'}
 						imageWidth={'80%'}
 					/>
