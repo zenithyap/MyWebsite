@@ -59,6 +59,16 @@ export default function Projects() {
 			<Container sx={{ marginTop: '2%' }} maxWidth={isMobile ? 'sm' : 'md'} >
 				<Grid container spacing={5} style={{marginBottom: '5%'}} columns={{lg: 8, sm:12}}>
 					<FlipCard
+						title={soarzPortfolio.title}
+						image={soarzPortfolio.image}
+						frontDescription={soarzPortfolio.frontDescription}
+						backDescription={soarzPortfolio.backDescription}
+						technologies={soarzPortfolio.technologies}
+						delayTime={isMobile ? 200: 500}
+						link={'https://soarz.netlify.app'}
+						imageWidth={'95%'}
+					/>
+					<FlipCard
 						title={robotDog.title}
 						image={robotDog.image}
 						frontDescription={robotDog.frontDescription}
@@ -87,16 +97,6 @@ export default function Projects() {
 						delayTime={isMobile ? 200: 400}
 						link={'https://github.com/zenithyap/tp'}
 						imageWidth={'80%'}
-					/>
-					<FlipCard
-						title={soarzPortfolio.title}
-						image={soarzPortfolio.image}
-						frontDescription={soarzPortfolio.frontDescription}
-						backDescription={soarzPortfolio.backDescription}
-						technologies={soarzPortfolio.technologies}
-						delayTime={isMobile ? 200: 500}
-						link={'https://soarz.netlify.app'}
-						imageWidth={'95%'}
 					/>
 				</Grid>
 			</Container>
