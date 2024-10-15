@@ -1,5 +1,4 @@
 import {
-    Card,
     Stack
 } from "@mui/material";
 import '../../styling/text.css';
@@ -26,7 +25,7 @@ export default function FlipCardBack({ title, description, technologies, link })
                     </ul>
                 </div>
             </Stack>
-            <a href={link} className='p1 link' style={{marginTop: 'auto'}}>
+            <a href={link} target="_blank" rel="noreferrer" className='p1 link' style={{marginTop: 'auto'}}>
                     Find out more here!
             </a>
         </div>

@@ -4,7 +4,6 @@ import '../../styling/flip.css';
 import '../../styling/text.css';
 import FlipCardBack from './FlipCardBack';
 import FlipCardFront from './FlipCardFront';
-import FadeIn from '../../animations/FadeIn';
 
 export default function FlipCard({ imageWidth, link, delayTime, title, image, frontDescription, backDescription, technologies }) {
     const [flipCard, setFlipCard] = useState(false);

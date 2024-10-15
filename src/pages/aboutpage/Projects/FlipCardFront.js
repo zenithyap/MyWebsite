@@ -1,11 +1,9 @@
 import {
-    Card,
     Stack
 } from "@mui/material";
 import FadeIn from "../../animations/FadeIn";
 import '../../styling/text.css';
 import '../../styling/flip.css';
-import { Height } from "@mui/icons-material";
 
 export default function FlipCardFront({ imageWidth, delayTime, title, image, description }) {
     return (
@@ -17,7 +15,7 @@ export default function FlipCardFront({ imageWidth, delayTime, title, image, des
                     justifyContent={'center'} alignItems={'center'}
                 >
                     <h5>{title}</h5>
-                    <img src={image} style={{ width: imageWidth }} />
+                    <img src={image} style={{ width: imageWidth }} alt={`${image}_image`}/>
                     <div className='p1'>{description}</div>
                 </Stack>
             </FadeIn>
