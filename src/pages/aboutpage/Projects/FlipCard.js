@@ -1,20 +1,23 @@
 import { useState } from 'react';
-import { Grid } from '@mui/material';
+import { Grid, useMediaQuery, useTheme } from '@mui/material';
 import '../../styling/flip.css';
 import '../../styling/text.css';
 import FlipCardBack from './FlipCardBack';
 import FlipCardFront from './FlipCardFront';
 
 export default function FlipCard({ imageWidth, link, delayTime, title, image, frontDescription, backDescription, technologies }) {
-    const [flipCard, setFlipCard] = useState(false);
+    const theme = useTheme();
+	const isMobile = useMediaQuery(theme.breakpoints.down('md'));
+    const [flipped, setFlipped] = useState(false);
 
     return (
         <Grid item
-            className={flipCard ? 'flipCard hover' : 'hover'}
+            className={!isMobile ? 'flipCard' : flipped ? 'flipCardMobile' : ''}
             xs={12}
             lg={4}
             md={4}
-            onClick={() => setFlipCard(!flipCard)}
+            style={{perspective: '1500px'}}
+            onClick={isMobile ? () => setFlipped((prev) => !prev) : undefined}
         >
             <div className='flipCardInner'>
                 <FlipCardFront

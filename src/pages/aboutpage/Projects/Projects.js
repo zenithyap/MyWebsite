@@ -9,6 +9,7 @@ import go1 from '../../../images/go1.png';
 import chatbot from '../../../images/chatbot.png';
 import bookmark from '../../../images/bookmark.png';
 import soarz from '../../../images/soarz.png';
+import peerprep from '../../../images/peerprep.png';
 import '../../styling/text.css';
 import '../../styling/flip.css';
 import FlipCard from "./FlipCard";
@@ -25,8 +26,8 @@ const chatBot = {
 	title: 'Pix',
 	image: chatbot,
 	frontDescription: 'A command-line task manager',
-	backDescription: 'A command-line task manager done as an school project. It is able to add/delete tasks, mark/unmark tasks and find tasks by keyword.',
-	technologies: ['Git', 'Java', 'Gradle'],
+	backDescription: 'A command-line task manager done as a school project. It can add/delete, mark/unmark and find tasks by keyword.',
+	technologies: ['Git', 'Java', 'JavaFX', 'Gradle'],
 };
 
 const bookmarkApp = {
@@ -34,7 +35,7 @@ const bookmarkApp = {
 	image: bookmark,
 	frontDescription: 'Desktop application for managing bookmarks',
 	backDescription: 'Bookmark application done as a school project in a team of five. My role was designing and implementing the front end design. The app is able to support books that currently being read, finished books as well as books to read.',
-	technologies: ['Git', 'Java', 'CSS', 'Gradle'],
+	technologies: ['Git', 'Java', 'JavaFX', 'Gradle'],
 }
 
 const soarzPortfolio = {
@@ -43,6 +44,14 @@ const soarzPortfolio = {
 	frontDescription: 'Portfolio showcasing art and animations',
 	backDescription: 'Created a portfolio website for my girlfriend as a personal project. My first time learning and using tailwindcss.',
 	technologies: ['Git', 'ReactJS', 'TailwindCSS'],
+}
+
+const peerPrep = {
+	title: 'Peer Prep',
+	image: peerprep,
+	frontDescription: 'Collaborative learning and problem solving platform',
+	backDescription: 'Created a dynamic web application to allow users to discuss problems and enhance problem solving skills. Engage in real time discussions through the chat feature and visualize code while tackling problems.',
+	technologies: ['Git', 'ReactTS', 'MaterialUI', 'Redux', 'Express', 'Firebase', 'GCP', 'MongoDB']
 }
 
 export default function Projects() {
@@ -56,8 +65,8 @@ export default function Projects() {
 			<FadeIn delayTime={200}>
 				<div className='myTitleCenter'>My Projects</div>
 			</FadeIn>
-			<Container sx={{ marginTop: '2%' }} maxWidth={isMobile ? 'sm' : 'md'} >
-				<Grid container spacing={5} style={{marginBottom: '5%'}} columns={{lg: 8, sm:12}}>
+			<Container sx={{ marginTop: '2%' }} maxWidth={isMobile ? 'sm' : 'lg'} >
+				<Grid container spacing={5} style={{marginBottom: '5%'}} columns={{lg: 12, sm:12}}>
 					<FlipCard
 						title={soarzPortfolio.title}
 						image={soarzPortfolio.image}
@@ -96,7 +105,17 @@ export default function Projects() {
 						technologies={bookmarkApp.technologies}
 						delayTime={isMobile ? 200: 500}
 						link={'https://github.com/zenithyap/tp'}
-						imageWidth={'80%'}
+						imageWidth={'90%'}
+					/>
+					<FlipCard
+						title={peerPrep.title}
+						image={peerPrep.image}
+						frontDescription={peerPrep.frontDescription}
+						backDescription={peerPrep.backDescription}
+						technologies={peerPrep.technologies}
+						delayTime={isMobile ? 200: 600}
+						link={'https://github.com/zenithyap/tp'}
+						imageWidth={'95%'}
 					/>
 				</Grid>
 			</Container>
