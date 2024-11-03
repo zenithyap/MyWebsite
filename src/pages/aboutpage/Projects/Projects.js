@@ -26,7 +26,7 @@ const chatBot = {
 	title: 'Pix',
 	image: chatbot,
 	frontDescription: 'A command-line task manager',
-	backDescription: 'A command-line task manager done as a school project. It can add/delete, mark/unmark and find tasks by keyword.',
+	backDescription: 'A command-line task manager done as a school project. It can mark/unmark, add/delete, and find tasks by keyword.',
 	technologies: ['Git', 'Java', 'JavaFX', 'Gradle'],
 };
 
