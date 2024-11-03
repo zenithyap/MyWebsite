@@ -7,7 +7,7 @@ import FlipCardFront from './FlipCardFront';
 
 export default function FlipCard({ imageWidth, link, delayTime, title, image, frontDescription, backDescription, technologies }) {
     const theme = useTheme();
-	const isMobile = useMediaQuery(theme.breakpoints.down('md'));
+	const isMobile = useMediaQuery(theme.breakpoints.down('lg'));
     const [flipped, setFlipped] = useState(false);
 
     return (
@@ -15,7 +15,7 @@ export default function FlipCard({ imageWidth, link, delayTime, title, image, fr
             className={!isMobile ? 'flipCard' : flipped ? 'flipCardMobile' : ''}
             xs={12}
             lg={4}
-            md={4}
+            md={6}
             style={{perspective: '1500px'}}
             onClick={isMobile ? () => setFlipped((prev) => !prev) : undefined}
         >

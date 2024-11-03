@@ -58,6 +58,7 @@ export default function Projects() {
 	const theme = useTheme();
 
 	const isMobile = useMediaQuery(theme.breakpoints.down('md'));
+	const isMedium = useMediaQuery(theme.breakpoints.down('lg'));
 
 	return (
 		<div style={{marginTop: '15%', marginLeft: 'auto', marginRight: 'auto', left: '0', right: '0' }}>
@@ -65,8 +66,8 @@ export default function Projects() {
 			<FadeIn delayTime={200}>
 				<div className='myTitleCenter'>My Projects</div>
 			</FadeIn>
-			<Container sx={{ marginTop: '2%' }} maxWidth={isMobile ? 'sm' : 'lg'} >
-				<Grid container spacing={5} style={{marginBottom: '5%'}} columns={{lg: 12, sm:12}}>
+			<Container sx={{ marginTop: '2%' }} maxWidth={isMedium ? 'md' : isMobile ? 'sm' : 'lg'} >
+				<Grid container spacing={5} style={{marginBottom: '5%'}}>
 					<FlipCard
 						title={soarzPortfolio.title}
 						image={soarzPortfolio.image}
